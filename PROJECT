@@ -1,0 +1,16 @@
+domain: x-helm.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: hwf
+repo: github.com/tamalsaha/hwf
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: x-helm.dev
+  group: code
+  kind: Module
+  path: github.com/tamalsaha/hwf/api/v1alpha1
+  version: v1alpha1
+version: "3"

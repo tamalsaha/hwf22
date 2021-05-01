@@ -1,0 +1,7 @@
+apiVersion: code.x-helm.dev/v1alpha1
+kind: Module
+metadata:
+  name: module-sample
+spec:
+  # Add fields here
+  foo: bar
